@@ -2,14 +2,12 @@ package level.one.lessonSix;
 
 public class Main {
     public static void main(String[] args){
-
         System.out.println("Количество секунд, прошедших с начала последнего часа: "
                 + getCountSecondsPassedInCurrentHour(12345));
     }
 
     public static int getCountSecondsPassedInCurrentHour(int seconds){
-
-        return seconds - (seconds / 3600) * 3600;
+        return seconds % 3600;
     }
 }
 
