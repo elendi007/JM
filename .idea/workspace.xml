@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d52e68-79d4-4377-afde-1500e6077adf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/level/one/lessonEight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/one/lessonEight/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/one/lessonFive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/one/lessonFive/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/one/lessonNine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/one/lessonNine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/one/lessonSeven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/one/lessonSeven/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/one/lessonSix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/one/lessonSix/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/two/lessonOne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/two/lessonOne/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level/two/lessonThree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level/two/lessonThree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level/three/lessonOne/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/level/two/lessonFour/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
               <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/level/three/lessonOne/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -62,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/level/one/lessonNine/Main.java" />
         <option value="$PROJECT_DIR$/src/level/two/lessonOne/Main.java" />
         <option value="$PROJECT_DIR$/src/level/two/lessonThree/Main.java" />
+        <option value="$PROJECT_DIR$/src/level/three/lessonOne/Main.java" />
       </list>
     </option>
   </component>
@@ -105,15 +110,7 @@
               <item name="JM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="level" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="level" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="lessonFour" type="462c0819:PsiDirectoryNode" />
+              <item name="lessonOne" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,18 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level.one.lessonFive.Main" />
-      <module name="JM" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level.one.lessonFive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="level.one.lessonSix.Main" />
       <module name="JM" />
@@ -194,6 +180,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="level.two.lessonThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="level.three.lessonOne.Main" />
+      <module name="JM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level.three.lessonOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,19 +237,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -290,12 +287,12 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2490242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2490242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -323,13 +320,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/level/one/lessonFive/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/level/one/lessonSix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -634,6 +624,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/level/three/lessonOne/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
