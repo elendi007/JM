@@ -20,6 +20,15 @@ public class Main {
         System.out.println("15: " + booleanExpression(true, true, true, true));
     }
 
+    /**
+     * Метод, возвращающий true, если среди четырех его аргументов ровно два истинны (любые).
+     * Во всех остальных случаях метод должен возвращать false.
+     * @param a
+     * @param b
+     * @param c
+     * @param d
+     * @return true если среди четырёх аргументов только два со знаечением true
+     */
     static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
         /* Мой первоначальный варинт
         if((a ^ b) & (c ^ d)) return true;
