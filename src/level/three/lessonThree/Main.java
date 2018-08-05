@@ -2,7 +2,7 @@ package level.three.lessonThree;
 
 public class Main {
     public static void main(String[] args){
-        System.out.println(isPowerOfTwo(128));
+        isPowerOfTwo(722);
     }
 
     /**
@@ -12,11 +12,12 @@ public class Main {
      * @return <code>true</code> when <code>value</code> is power of two, <code>false</code> otherwise
      */
     public static boolean isPowerOfTwo(int value) {
-        int a = 1;
-        if(value == 0) return false;
-        while (a <= Math.abs(value)){
-            a *= 2;
-        }
-        return a/2 == Math.abs(value);
+        return Integer.bitCount(Math.abs(value)) == 1;
+//        int a = 1;
+//        if(value == 0) return false;
+//        while (a <= Math.abs(value)){
+//            a *= 2;
+//        }
+//        return a/2 == Math.abs(value);
     }
 }

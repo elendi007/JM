@@ -28,7 +28,7 @@ public class Main {
             textPerRole.append(roles[i] + ":\n");
             for (int j = 0; j < textLines.length; j++) {
                 if(textLines[j].startsWith(roles[i] + ":")){
-                    textPerRole.append(j + ") " + textLines[j].substring(1 + textLines[j].indexOf(':')) + "\n");
+                    textPerRole.append((j + 1) + ")" + textLines[j].substring(1 + textLines[j].indexOf(':')) + "\n");
                 }
             }
             textPerRole.append("\n");
@@ -37,3 +37,19 @@ public class Main {
         return textPerRole.toString();
     }
 }
+
+//
+//        Городничий:
+//        1) Я пригласил вас, господа, с тем, чтобы сообщить вам пренеприятное известие: к нам едет ревизор.
+//        4) Ревизор из Петербурга, инкогнито. И еще с секретным предписаньем.
+//
+//        Аммос Федорович:
+//        2) Как ревизор?
+//        5) Вот те на!
+//
+//        Артемий Филиппович:
+//        3) Как ревизор?
+//        6) Вот не было заботы, так подай!
+//
+//        Лука Лукич:
+//        7) Господи боже! еще и с секретным предписаньем!
