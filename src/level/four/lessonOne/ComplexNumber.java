@@ -1,5 +1,7 @@
 package level.four.lessonOne;
 
+import java.util.Objects;
+
 public final class ComplexNumber {
     private final double re;
     private final double im;
@@ -10,14 +12,18 @@ public final class ComplexNumber {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        ComplexNumber complexNumber = (ComplexNumber) obj;
-        return this.im == complexNumber.im & this.re == complexNumber.re;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ComplexNumber that = (ComplexNumber) o;
+        return Double.compare(that.re, re) == 0 &&
+                Double.compare(that.im, im) == 0;
     }
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+
+        return Objects.hash(re, im);
     }
 
     public double getRe() {
