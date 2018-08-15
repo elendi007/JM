@@ -7,7 +7,10 @@ public class Main {
         StudentList<String> studentList = new StudentList<>();
         studentList.add("IVAN");
         studentList.add("OLGA");
+
         System.out.println(studentList.get(1));
+        System.out.println(studentList.get(0));
+
 
         SchoolClass classA = new SchoolClass();
 
