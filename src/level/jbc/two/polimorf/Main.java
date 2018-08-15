@@ -1,4 +1,4 @@
-package level.jbc.two;
+package level.jbc.two.polimorf;
 
 public class Main {
     public static void main(String[] args) {
