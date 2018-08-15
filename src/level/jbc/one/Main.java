@@ -1,14 +1,16 @@
 package level.jbc.one;
 
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args){
         School school = new School();
 
-        ArrayList<Student> studentList = new ArrayList<>();
-        SchoolClass schoolClass = new SchoolClass();
+        StudentList<String> studentList = new StudentList<>();
+        studentList.add("IVAN");
+        studentList.add("OLGA");
+        System.out.println(studentList.get(1));
 
-        school.schoolMap.put(schoolClass, studentList);
+        SchoolClass classA = new SchoolClass();
+
+        school.schoolMap.put(classA, studentList);
     }
 }
